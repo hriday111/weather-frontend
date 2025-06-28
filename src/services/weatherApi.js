@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = "https://wback.07042006.xyz";
 
 export const getForecast = async (lat, lon, lang = "pl") => {
   const { data } = await axios.get(`${API_BASE}/forecast`, {
