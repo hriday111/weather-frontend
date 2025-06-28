@@ -17,13 +17,11 @@ A modern React + Tailwind + Vite frontend for displaying weather forecasts, conn
 - Vite
 - Axios for API calls
 
-## Docker support
 
-This app can be built and served with Docker, see below.
+## Directory Structure
 
----
+/src has all the source files, fuch as componenets (weather cards and input forms), page (home page), api services
 
-## Getting Started
 
 ### Docker
 ```git clone https://github.com/hriday111/weather-frontend```
