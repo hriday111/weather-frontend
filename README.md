@@ -2,6 +2,13 @@
 
 A modern React + Tailwind + Vite frontend for displaying weather forecasts, connected to a custom Go-based backend. 
 
+
+## Check it out live at
+https://myweather.07042006.xyz/
+
+If you allow it to access your location, then it gets the weather at your location, else defaults to warsaw/poland
+
+you can also insert custom co-ordinates
 ## Features
 
 - Fetches 7-day weather forecast via coordinates (lat/lon)
@@ -22,6 +29,10 @@ A modern React + Tailwind + Vite frontend for displaying weather forecasts, conn
 
 /src has all the source files, fuch as componenets (weather cards and input forms), page (home page), api services
 
+## TO-DO
+
+- Add a map-picker, where a user can place a pin on world map and the co-ords are extracted and weather is displayed
+- Add a text input to search for cites.
 
 ### Docker
 ```git clone https://github.com/hriday111/weather-frontend```
